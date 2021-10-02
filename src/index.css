@@ -1,3 +1,11 @@
+html {
+  background-image: url('./clouds.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  overscroll-behavior-y: none;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,7 +13,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
+  background: transparent;
+  overscroll-behavior-y: none;
+}  
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
